@@ -1,0 +1,58 @@
+.download {
+  position: relative;
+  padding: var(--spacing-7xl) var(--spacing-lg);
+  overflow: hidden;
+}
+
+.download-bg-gradient {
+  position: absolute;
+  inset: 0;
+  background: var(--primary-gradient);
+  opacity: 0.12;
+  z-index: 0;
+}
+
+.download-container {
+  position: relative;
+  z-index: 1;
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.download-title {
+  font-size: var(--heading-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--text-primary);
+  margin: 0 0 var(--spacing-md) 0;
+}
+
+.download-subtitle {
+  font-size: var(--body-lg);
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0 0 var(--spacing-2xl) 0;
+}
+
+.download-cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  background: var(--primary-gradient);
+  color: white;
+  padding: 18px 36px;
+  border-radius: var(--radius-sm);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--body-lg);
+  text-decoration: none;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.download-cta-button:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 24px rgba(10, 132, 255, 0.4);
+}
+
+.download-cta-icon {
+  font-size: 1.5rem;
+}

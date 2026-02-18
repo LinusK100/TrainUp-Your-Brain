@@ -1,0 +1,346 @@
+export const translations = {
+  de: {
+    nav: {
+      home: 'Start',
+      features: 'Features',
+      gamification: 'Gamification',
+      focusflow: 'FocusFlow',
+      screenshots: 'Screenshots',
+      benefits: 'Vorteile',
+      download: 'Download',
+      menuToggle: 'Menü öffnen/schließen',
+      themeToggle: 'Zu {theme} Mode wechseln',
+      languageToggle: 'Sprache wechseln',
+    },
+    hero: {
+      title: 'TrainUp Your Brain',
+      tagline: 'Dein persönliches Gehirn- und Achtsamkeitstraining',
+      description: 'Über 14 Übungen für geistige Fitness, körperliche Koordination und innere Ruhe – in nur wenigen Minuten am Tag.',
+      cta: 'Im App Store laden',
+      ctaAria: 'TrainUp Your Brain im App Store laden',
+      imageAlt: 'TrainUp Your Brain App',
+    },
+    features: {
+      title: 'Alles, was du für dein mentales Wohlbefinden brauchst',
+      cognitive: {
+        title: 'Kognitive Spiele',
+        description: '5 Spiele für Gedächtnis, Reaktion und Konzentration',
+        items: [
+          'Stroop-Test – Trainiere Aufmerksamkeit',
+          'N-Back – Stärke dein Arbeitsgedächtnis',
+          'Sequenz-Gedächtnis – Merke dir Muster',
+          'Richtungswechsel – Kognitive Flexibilität',
+          'Schnell-Tippen – Geschwindigkeit & Präzision',
+        ],
+      },
+      physical: {
+        title: 'Körperliche Übungen',
+        description: 'Verbinde Geist und Körper für ganzheitliches Training',
+        items: [
+          'Brain-Body-Combo – Geist & Körper synchronisieren',
+          'Balance-Challenge – Gleichgewicht verbessern',
+        ],
+      },
+      mindfulness: {
+        title: 'Achtsamkeit & Entspannung',
+        description: 'Finde innere Ruhe und reduziere Stress',
+        items: [
+          '4-7-8 Atemübung – Bewährte Atemtechnik',
+          'Affirmations-Boost – Selbstbewusstsein aufbauen',
+        ],
+      },
+    },
+    gamification: {
+      title: 'Motivation, die dich am Ball hält',
+      xp: { title: 'XP & Level-System', description: 'Sammle Erfahrungspunkte und steige Level für Level auf' },
+      streaks: { title: 'Tägliche Streaks', description: 'Halte deine Serie und werde zur Gewohnheit' },
+      achievements: { title: '80+ Achievements', description: 'Schalte Erfolge frei und feiere deine Meilensteine' },
+      goals: { title: 'Intelligente Ziele', description: 'Setze dir tägliche, wöchentliche und monatliche Ziele' },
+    },
+    focusflow: {
+      title: 'FocusFlow – Dein Modus für maximale Konzentration',
+      description: 'Aktiviere den FocusFlow-Modus und trainiere ohne Ablenkung. Mit entspannenden Soundscapes und einem minimalistischen Interface bleibst du voll bei der Sache.',
+      items: [
+        'Entspannende Hintergrundmusik',
+        'Naturklänge: Waldgeräusche, Meeresrauschen, Regen',
+        'Ambient Piano für tiefe Konzentration',
+        'Ablenkungsfreies Training',
+      ],
+    },
+    screenshots: {
+      title: 'Entdecke TrainUp Your Brain',
+      dashboard: 'Dashboard',
+      training: 'Training-Übersicht',
+      game: 'Aktives Spiel',
+      goals: 'Ziele-Ansicht',
+      profile: 'Profil',
+      focusflow: 'FocusFlow-Modus',
+      openScreenshot: 'Screenshot {index}',
+    },
+    benefits: {
+      title: 'Warum TrainUp Your Brain?',
+      holistic: {
+        title: 'Ganzheitlicher Ansatz',
+        description: 'Vereint kognitives Training, körperliche Übungen und Achtsamkeit in einer App – perfekt aufeinander abgestimmt.',
+      },
+      time: {
+        title: 'Passt in jeden Alltag',
+        description: 'Ob 2 Minuten oder 20 Minuten – jede Übung ist so gestaltet, dass sie in deinen Tag passt.',
+      },
+      privacy: {
+        title: 'Privatsphäre first',
+        description: 'Alle Daten bleiben auf deinem Gerät. Keine Cloud, keine Registrierung, volle Kontrolle.',
+      },
+    },
+    testimonials: {
+      title: 'Was Nutzer sagen',
+      rating: '4.8',
+      ratingLabel: 'basierend auf Bewertungen',
+      items: [
+        { quote: 'TrainUp Your Brain hat mir geholfen, meine Konzentration im Alltag deutlich zu verbessern. Die kurzen Übungen passen perfekt in meine Mittagspause.', author: 'Anna M.', stars: 5 },
+        { quote: 'Endlich eine App, die Gehirntraining und Entspannung kombiniert. Der FocusFlow-Modus ist mein tägliches Ritual geworden.', author: 'Thomas K.', stars: 5 },
+        { quote: 'Die Gamification motiviert mich jeden Tag aufs Neue. Mein aktueller Streak: 47 Tage!', author: 'Sarah L.', stars: 5 },
+      ],
+    },
+    download: {
+      title: 'Starte jetzt dein Training',
+      subtitle: 'Erlebe, wie wenige Minuten am Tag dein Wohlbefinden und deine geistige Fitness nachhaltig verbessern.',
+      cta: 'Im App Store laden',
+      ctaAria: 'TrainUp Your Brain im App Store laden',
+    },
+    footer: {
+      title: 'TrainUp Your Brain',
+      description: 'Dein persönliches Gehirn- und Achtsamkeitstraining.\nÜber 14 Übungen.',
+      contact: 'Kontakt',
+      contactText: 'Fragen oder Feedback?\nKontaktieren Sie uns gerne.',
+      links: 'Links',
+      privacy: 'Datenschutz',
+      imprint: 'Impressum',
+      support: 'Support',
+      appStore: 'App Store',
+      copyright: '© {year} TrainUp Your Brain. Alle Rechte vorbehalten.',
+      madeWith: 'Made in Germany',
+    },
+    privacy: {
+      title: 'Datenschutzerklärung für TrainUp Your Brain',
+      section1: {
+        title: '1. Betreiber der App',
+        name: 'Linus Kloppenburg',
+        email: 'UMLStudioCode@gmx.de',
+      },
+      section2: {
+        title: '2. Allgemeines',
+        content: 'Diese App erfasst und speichert keine persönlichen Daten von Nutzern.',
+      },
+      section3: {
+        title: '3. Offline-Funktionsweise',
+        content: 'Die Anwendung funktioniert vollständig offline auf deinem Gerät. Es findet keine Kommunikation mit externen Servern statt. Die Daten werden ausschließlich lokal auf deinem Gerät verarbeitet.',
+      },
+      section4: {
+        title: '4. Keine Cookies oder Tracking',
+        content: 'Es werden keine Cookies, Analytics-Tools oder ähnliche Verfolgungstechnologien verwendet.',
+      },
+      section5: {
+        title: '5. Änderungen dieser Erklärung',
+        content: '24.01.2026',
+      },
+    },
+    support: {
+      title: 'Support',
+      section1: {
+        title: 'Anleitung',
+        content: 'In meiner App finden Sie eine integrierte Hilfe-Sektion mit Tipps und Best Practices für alle Übungen und den FocusFlow-Modus.',
+      },
+      section2: {
+        title: 'Kontakt',
+        content: 'Bei Fragen oder Problemen können Sie mich jederzeit kontaktieren. In der App gibt es eine integrierte Funktion zum Senden von Emails (kategorisiert nach Fehler, Verbesserungsvorschläge, Erweiterungen).',
+      },
+      section3: {
+        title: 'Feedback',
+        content: 'Ihr Feedback ist mir wichtig! Teilen Sie mir mit, wie ich TrainUp Your Brain weiter verbessern kann. Ich freue mich über Ihre Anregungen und Vorschläge.',
+        email: 'Wenden Sie sich gerne direkt an mich:',
+        emailAddress: 'UMLStudioCode@gmx.de',
+      },
+    },
+    imprint: {
+      title: 'Impressum',
+      section1: { title: 'Angaben gemäß §5 TMG' },
+      section2: { title: 'Standort', location: 'Paderborn' },
+      section3: { title: 'Kontakt', email: 'E-Mail:', emailAddress: 'UMLStudioCode@gmx.de' },
+      section4: { title: 'Verantwortlich für den Inhalt nach §55 Abs. 2 RStV', name: 'Linus Kloppenburg' },
+    },
+    common: { skipToContent: 'Zum Hauptinhalt springen' },
+  },
+  en: {
+    nav: {
+      home: 'Home',
+      features: 'Features',
+      gamification: 'Gamification',
+      focusflow: 'FocusFlow',
+      screenshots: 'Screenshots',
+      benefits: 'Benefits',
+      download: 'Download',
+      menuToggle: 'Toggle menu',
+      themeToggle: 'Switch to {theme} mode',
+      languageToggle: 'Change language',
+    },
+    hero: {
+      title: 'TrainUp Your Brain',
+      tagline: 'Your personal brain and mindfulness training',
+      description: 'Over 14 exercises for mental fitness, physical coordination and inner calm – in just a few minutes a day.',
+      cta: 'Download on the App Store',
+      ctaAria: 'Download TrainUp Your Brain on the App Store',
+      imageAlt: 'TrainUp Your Brain App',
+    },
+    features: {
+      title: 'Everything you need for your mental wellbeing',
+      cognitive: {
+        title: 'Cognitive Games',
+        description: '5 games for memory, reaction and concentration',
+        items: [
+          'Stroop Test – Train attention',
+          'N-Back – Strengthen working memory',
+          'Sequence Memory – Remember patterns',
+          'Direction Switch – Cognitive flexibility',
+          'Quick Tap – Speed & precision',
+        ],
+      },
+      physical: {
+        title: 'Physical Exercises',
+        description: 'Connect mind and body for holistic training',
+        items: [
+          'Brain-Body Combo – Sync mind & body',
+          'Balance Challenge – Improve balance',
+        ],
+      },
+      mindfulness: {
+        title: 'Mindfulness & Relaxation',
+        description: 'Find inner peace and reduce stress',
+        items: [
+          '4-7-8 Breathing – Proven technique',
+          'Affirmations Boost – Build confidence',
+        ],
+      },
+    },
+    gamification: {
+      title: 'Motivation that keeps you going',
+      xp: { title: 'XP & Level System', description: 'Earn experience points and level up' },
+      streaks: { title: 'Daily Streaks', description: 'Keep your streak and build the habit' },
+      achievements: { title: '80+ Achievements', description: 'Unlock achievements and celebrate milestones' },
+      goals: { title: 'Smart Goals', description: 'Set daily, weekly and monthly goals' },
+    },
+    focusflow: {
+      title: 'FocusFlow – Your mode for maximum concentration',
+      description: 'Activate FocusFlow mode and train without distraction. With relaxing soundscapes and a minimal interface, you stay fully focused.',
+      items: [
+        'Relaxing background music',
+        'Nature sounds: forest, ocean, rain',
+        'Ambient piano for deep focus',
+        'Distraction-free training',
+      ],
+    },
+    screenshots: {
+      title: 'Discover TrainUp Your Brain',
+      dashboard: 'Dashboard',
+      training: 'Training Overview',
+      game: 'Active Game',
+      goals: 'Goals View',
+      profile: 'Profile',
+      focusflow: 'FocusFlow Mode',
+      openScreenshot: 'Screenshot {index}',
+    },
+    benefits: {
+      title: 'Why TrainUp Your Brain?',
+      holistic: {
+        title: 'Holistic Approach',
+        description: 'Combines cognitive training, physical exercises and mindfulness in one app – perfectly aligned.',
+      },
+      time: {
+        title: 'Fits Every Schedule',
+        description: 'Whether 2 minutes or 20 – every exercise is designed to fit into your day.',
+      },
+      privacy: {
+        title: 'Privacy First',
+        description: 'All data stays on your device. No cloud, no registration, full control.',
+      },
+    },
+    testimonials: {
+      title: 'What users say',
+      rating: '4.8',
+      ratingLabel: 'based on reviews',
+      items: [
+        { quote: 'TrainUp Your Brain helped me significantly improve my concentration in everyday life. The short exercises fit perfectly into my lunch break.', author: 'Anna M.', stars: 5 },
+        { quote: 'Finally an app that combines brain training and relaxation. FocusFlow mode has become my daily ritual.', author: 'Thomas K.', stars: 5 },
+        { quote: 'The gamification motivates me every single day. My current streak: 47 days!', author: 'Sarah L.', stars: 5 },
+      ],
+    },
+    download: {
+      title: 'Start your training now',
+      subtitle: 'Experience how a few minutes a day can sustainably improve your wellbeing and mental fitness.',
+      cta: 'Download on the App Store',
+      ctaAria: 'Download TrainUp Your Brain on the App Store',
+    },
+    footer: {
+      title: 'TrainUp Your Brain',
+      description: 'Your personal brain and mindfulness training.\nOver 14 exercises.',
+      contact: 'Contact',
+      contactText: 'Questions or feedback?\nFeel free to contact us.',
+      links: 'Links',
+      privacy: 'Privacy',
+      imprint: 'Imprint',
+      support: 'Support',
+      appStore: 'App Store',
+      copyright: '© {year} TrainUp Your Brain. All rights reserved.',
+      madeWith: 'Made in Germany',
+    },
+    privacy: {
+      title: 'Privacy Policy for TrainUp Your Brain',
+      section1: {
+        title: '1. App Operator',
+        name: 'Linus Kloppenburg',
+        email: 'UMLStudioCode@gmx.de',
+      },
+      section2: {
+        title: '2. General',
+        content: 'This app does not collect or store any personal data from users.',
+      },
+      section3: {
+        title: '3. Offline Functionality',
+        content: 'The application works completely offline on your device. There is no communication with external servers. Data is processed exclusively locally on your device.',
+      },
+      section4: {
+        title: '4. No Cookies or Tracking',
+        content: 'No cookies, analytics tools, or similar tracking technologies are used.',
+      },
+      section5: {
+        title: '5. Changes to this Statement',
+        content: '24.01.2026',
+      },
+    },
+    support: {
+      title: 'Support',
+      section1: {
+        title: 'Guide',
+        content: 'In our app you will find an integrated help section with tips and best practices for all exercises and FocusFlow mode.',
+      },
+      section2: {
+        title: 'Contact',
+        content: 'If you have any questions or problems, please feel free to contact us at any time. In the app there is an integrated function for sending emails (categorized by errors, improvement suggestions, extensions).',
+      },
+      section3: {
+        title: 'Feedback',
+        content: 'Your feedback is important to us! Let us know how we can further improve TrainUp Your Brain. We look forward to your suggestions and ideas.',
+        email: 'Feel free to contact us directly:',
+        emailAddress: 'UMLStudioCode@gmx.de',
+      },
+    },
+    imprint: {
+      title: 'Imprint',
+      section1: { title: 'Information according to §5 TMG' },
+      section2: { title: 'Location', location: 'Paderborn' },
+      section3: { title: 'Contact', email: 'E-Mail:', emailAddress: 'UMLStudioCode@gmx.de' },
+      section4: { title: 'Responsible for content according to §55 Abs. 2 RStV', name: 'Linus Kloppenburg' },
+    },
+    common: { skipToContent: 'Skip to main content' },
+  },
+};

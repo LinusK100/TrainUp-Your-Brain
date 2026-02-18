@@ -1,0 +1,61 @@
+.gamification {
+  padding: var(--spacing-6xl) var(--spacing-lg);
+  background-color: var(--bg-secondary);
+}
+
+.gamification-container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.gamification-title {
+  font-size: var(--heading-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--text-primary);
+  text-align: center;
+  margin: 0 0 var(--spacing-4xl) 0;
+}
+
+.gamification-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-lg);
+}
+
+@media (min-width: 768px) {
+  .gamification-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-xl);
+  }
+}
+
+.gamification-card {
+  padding: var(--spacing-xl);
+  text-align: center;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.gamification-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px var(--shadow-color);
+}
+
+.gamification-icon {
+  margin-bottom: var(--spacing-md);
+  display: flex;
+  justify-content: center;
+}
+
+.gamification-card-title {
+  font-size: var(--heading-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--text-primary);
+  margin: 0 0 var(--spacing-xs) 0;
+}
+
+.gamification-card-desc {
+  font-size: var(--body-sm);
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin: 0;
+}

@@ -1,0 +1,72 @@
+.focusflow {
+  padding: var(--spacing-6xl) var(--spacing-lg);
+  background-color: var(--dark-blue);
+  color: var(--text-primary-dark);
+}
+
+/* White / Light Mode: heller Hintergrund, dunkle Schrift */
+[data-theme="light"] .focusflow {
+  background-color: var(--bg-tertiary);
+  color: var(--text-primary);
+}
+
+.focusflow-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.focusflow-title {
+  font-size: var(--heading-lg);
+  font-weight: var(--font-weight-bold);
+  color: white;
+  text-align: center;
+  margin: 0 0 var(--spacing-lg) 0;
+}
+
+[data-theme="light"] .focusflow-title {
+  color: var(--text-primary);
+}
+
+.focusflow-description {
+  font-size: var(--body-lg);
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.6;
+  text-align: center;
+  margin: 0 0 var(--spacing-2xl) 0;
+}
+
+[data-theme="light"] .focusflow-description {
+  color: var(--text-secondary);
+}
+
+.focusflow-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-md);
+}
+
+@media (min-width: 768px) {
+  .focusflow-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.focusflow-list li {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-md) var(--spacing-lg);
+  background: rgba(52, 199, 89, 0.15);
+  border-radius: var(--radius-sm);
+  border-left: 4px solid var(--mindfulness-green);
+  font-size: var(--body-md);
+  color: inherit;
+}
+
+[data-theme="light"] .focusflow-list li {
+  background: rgba(52, 199, 89, 0.08);
+  color: var(--text-primary);
+}
