@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/LinusK100/TrainUp-Your-Brain.git/static/css/main.5a815e6f.css",
+    "main.js": "/LinusK100/TrainUp-Your-Brain.git/static/js/main.4c31bcfb.js",
+    "static/js/453.b8ca79ba.chunk.js": "/LinusK100/TrainUp-Your-Brain.git/static/js/453.b8ca79ba.chunk.js",
+    "static/media/iPhone_White_Mode_2.png": "/LinusK100/TrainUp-Your-Brain.git/static/media/iPhone_White_Mode_2.d5c3e27aa60de65b0f54.png",
+    "static/media/iPhone_White_Mode_5.png": "/LinusK100/TrainUp-Your-Brain.git/static/media/iPhone_White_Mode_5.959cb583a14c22faabcd.png",
+    "static/media/iPhone_Dark_Mode_2.png": "/LinusK100/TrainUp-Your-Brain.git/static/media/iPhone_Dark_Mode_2.cefe3dd7597aefba3619.png",
+    "static/media/App_TYB_Logo.png": "/LinusK100/TrainUp-Your-Brain.git/static/media/App_TYB_Logo.f80654d8b011e7ff207e.png",
+    "static/media/iPhone_Dark_Mode_5.png": "/LinusK100/TrainUp-Your-Brain.git/static/media/iPhone_Dark_Mode_5.8c09449bff99641458f0.png",
+    "static/media/iPhone_White_Mode_1.png": "/LinusK100/TrainUp-Your-Brain.git/static/media/iPhone_White_Mode_1.e824c7fe7caa9de78580.png",
+    "static/media/iPhone_White_Mode_6.png": "/LinusK100/TrainUp-Your-Brain.git/static/media/iPhone_White_Mode_6.562e07dcff663671cf16.png",
+    "static/media/iPhone_Dark_Mode_6.png": "/LinusK100/TrainUp-Your-Brain.git/static/media/iPhone_Dark_Mode_6.4fa42cea37fb62907eef.png",
+    "static/media/iPhone_Dark_Mode_1.png": "/LinusK100/TrainUp-Your-Brain.git/static/media/iPhone_Dark_Mode_1.9f7b2bb5401c3198bebb.png",
+    "static/media/iPhone_Dark_Mode_3.png": "/LinusK100/TrainUp-Your-Brain.git/static/media/iPhone_Dark_Mode_3.942beef9bbee9aadfbc3.png",
+    "static/media/iPhone_White_Mode_4.png": "/LinusK100/TrainUp-Your-Brain.git/static/media/iPhone_White_Mode_4.ec993adc07f7999bc455.png",
+    "static/media/iPhone_Dark_Mode_4.png": "/LinusK100/TrainUp-Your-Brain.git/static/media/iPhone_Dark_Mode_4.c9623379627057a17b2f.png",
+    "static/media/iPhone_White_Mode_3.png": "/LinusK100/TrainUp-Your-Brain.git/static/media/iPhone_White_Mode_3.7ebaab67fdeaff42b074.png",
+    "index.html": "/LinusK100/TrainUp-Your-Brain.git/index.html",
+    "main.5a815e6f.css.map": "/LinusK100/TrainUp-Your-Brain.git/static/css/main.5a815e6f.css.map",
+    "main.4c31bcfb.js.map": "/LinusK100/TrainUp-Your-Brain.git/static/js/main.4c31bcfb.js.map",
+    "453.b8ca79ba.chunk.js.map": "/LinusK100/TrainUp-Your-Brain.git/static/js/453.b8ca79ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a815e6f.css",
+    "static/js/main.4c31bcfb.js"
+  ]
+}

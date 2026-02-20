@@ -30,7 +30,7 @@ function RedirectHandler() {
 }
 
 function App() {
-  const basename = process.env.PUBLIC_URL || '';
+  const basename = import.meta.env.BASE_URL.replace(/\/$/, '');
 
   return (
     <LanguageProvider>
