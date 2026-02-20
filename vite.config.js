@@ -19,7 +19,7 @@ export default defineConfig({
       },
     },
   },
-  base: '/TrainUp-Your-Brain/',
+  base: '/',
   test: {
     environment: 'jsdom',
     setupFiles: './src/setupTests.js',

@@ -2,7 +2,6 @@
   "name": "trainup-your-brain",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://linusk100.github.io/TrainUp-Your-Brain",
   "dependencies": {
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
